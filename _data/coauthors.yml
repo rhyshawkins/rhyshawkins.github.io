@@ -1,34 +1,94 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Heslop":
+  - firstname: ["David", "D."]
+    url: https://earthsciences.anu.edu.au/people/academics/dr-david-heslop
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Sambridge":
+  - firstname: ["Malcolm", "M."]
+    url: https://earthsciences.anu.edu.au/people/academics/professor-malcolm-sambridge
+    
+"Tkalcic":
+  - firstname: ["Hrvoje", "H."]
+    url: https://earthsciences.anu.edu.au/people/academics/professor-hrvoje-tkalcic
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Roberts":
+  - firstname: ["Andrew", "A. P.", "Andrew P."]
+    url: https://earthsciences.anu.edu.au/people/academics/professor-andrew-p-roberts
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Tregoning":
+  - firstname: ["Paul", "P."]
+    url: https://earthsciences.anu.edu.au/people/academics/professor-paul-tregoning
+    
+"Mousavi":
+  - firstname: ["Sima", "S."]
+    url: https://earthsciences.anu.edu.au/people/professional-staff/dr-sima-mousavi
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Ruigrok":
+  - firstname: ["Elmer", "E."]
+    url: https://www.knmi.nl/over-het-knmi/onze-mensen/elmer-ruigrok
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Hawkins":
+  - firstname: ["Rhys", "R.", "R. P."]
+    url: https://comp.anu.edu.au/people/rhys-hawkins/
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Fokker":
+  - firstname: ["Eldert", "E."]
+    url: https://www.uu.nl/staff/EBFokker
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Brett":
+  - firstname: ["Henry", "Hen", "H."]
+    url: https://www.uu.nl/staff/HBrett1
 
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Waszek":
+  - firstname: ["Lauren", "L."]
+    url: https://www.jcu.edu.au/college-of-science-and-engineering/meet-our-academic-teams/physical-sciences-staff/dr-lauren-waszek
+
+"Cummins":
+  - firstname: ["Phil", "P.", "P. R."]
+    url: https://earthsciences.anu.edu.au/people/academics/professor-phil-cummins
+
+"Saygin":
+  - firstname: ["Erdinc", "E."]
+    url: https://research.csiro.au/dei/team/esaygin/
+
+"Charles":
+  - firstname: ["Christine", "C."]
+    url: https://physics.anu.edu.au/contact/people/profile.php?ID=406
+
+"Boswell":
+  - firstname: ["Rod", "R."]
+    url: https://physics.anu.edu.au/contact/people/profile.php?ID=411
+
+"Iaffaldano":
+  - firstname: ["Giampiero", "G."]
+    url: https://ign.ku.dk/english/employees/geology/?pure=en/persons/503533
+
+"Hayward":
+  - firstname: ["Kathryn", "K.", "K. S."]
+    url: https://www.researchgate.net/profile/Kathryn-Hayward
+
+"Cox":
+  - firstname: ["Stephen", "S. F."]
+    url: https://earthsciences.anu.edu.au/professor-steve-cox
+
+"Bodin":
+  - firstname: ["Thomas", "T."]
+    url: https://perso.ens-lyon.fr/thomas.bodin/
+
+"Dettmer":
+  - firstname: ["Jan", "J."]
+    url: https://science.ucalgary.ca/geoscience/contacts/jan-dettmer
+
+"Le Losq":
+  - firstname: ["Charles", "C."]
+    url: https://charlesll.github.io/
+
+"Kumar":
+  - firstname: ["Vivek", "V."]
+    url: https://scholar.google.com/citations?user=VQtbZi0AAAAJ&hl=en
+
+"Pilia":
+  - firstname: ["Simone", "S."]
+    url: https://en.unimib.it/simone-pilia
+
+
+

@@ -2,12 +2,19 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Currently available projects for students
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [undergrad, phd]
 horizontal: false
 ---
+
+I have a keen interest in providing student projects that apply new and developing computer
+science approaches to scientific problems in the Earth Sciences. You can find potential student
+projects below. If you have a project in mind that you're passionate about that involves
+Computation and Earth Sciences, then please feel free to contact me and I'd happy to chat and/or
+put you in touch with the right people.
+
 
 <!-- pages/projects.md -->
 <div class="projects">

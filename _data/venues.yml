@@ -2,5 +2,59 @@
   url: https://aapt.scitation.org/journal/ajp
   color: "#00369f"
 
+"APL":
+  url: https://aip.scitation.org/journal/apl
+  color: "#00369f"
+
 "PhysRev":
   url: https://journals.aps.org/
+
+"GJI":
+  url: https://academic.oup.com/gji
+  color: "#64be64"
+
+"EPSL":
+  url: https://www.sciencedirect.com/journal/earth-and-planetary-science-letters
+  color: "#017398"
+
+"JGR:SE":
+  url: https://agupubs.onlinelibrary.wiley.com/journal/21699356
+  color: "#005274"
+
+"Remote Sens.":
+  url: https://www.mdpi.com/journal/remotesensing
+  color: "#38702e"
+
+"GRL":
+  url: https://agupubs.onlinelibrary.wiley.com/journal/19448007
+  color: "#005274"
+
+"BSSA":
+  url: https://pubs.geoscienceworld.org/bssa
+  color: "#585858"
+
+"CMP":
+  url: https://www.springer.com/journal/410
+  color: "#fbb100"
+
+"G3":
+  url: https://agupubs.onlinelibrary.wiley.com/journal/15252027
+  color: "#005274"
+
+"EXPGEO":
+  url: https://www.tandfonline.com/journals/texg20
+
+"CRYO":
+  url: https://www.the-cryosphere.net/
+  color: "#5698d2"
+
+"PCPP":
+  url: https://www.springer.com/journal/11090
+  color: "#268768"
+
+"Geology":
+  url: https://pubs.geoscienceworld.org/geology
+  color: "#d26746"
+  
+  
+  

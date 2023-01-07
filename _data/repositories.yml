@@ -1,12 +1,13 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - rhyshawkins
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - rhyshawkins/TDTWavetomo2D
+  - rhyshawkins/GeneralVoronoiS2
+  - rhyshawkins/TransTessellate2D
+  - rhyshawkins/TDTWave2D
+  - rhyshawkins/TDTAemInvert
+  - rhyshawkins/AkiEstimate
+  - rhyshawkins/traveltime2d
+  - rhyshawkins/TDTbase
+  - rhyshawkins/AttenuationVoronoi

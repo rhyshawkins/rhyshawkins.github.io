@@ -1,81 +1,49 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: vb+adjoint
+description: Variational Bayes approaches applied to adjoint waveform tomography
+img: assets/img/iceland_kernel.jpg
 importance: 3
-category: work
+category: undergrad
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Description
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+One of the key methods we have for understanding the composition and
+structure of the deep Earth is through seismic tomography. A
+relatively recent advance in the field of seismic tomography is the
+use of full waveform simulation and adjoint techniques to iteratively
+refine models of the Earth in an optimization framework. More recent
+work has incorporated a Variational Bayes to estimating both likely
+structure of the smaller regions of the Earth and their associated
+uncertainties.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+A key part of this inference is in the formulation of a penalty function
+between simulated and observed waveforms. There are many different
+approaches to formulating this misfit
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+The first aim of this project is to investigate the use of Variational Bayes
+techniques and Gaussian Process models to formulate an adjoint waveform
+tomography problem. This consists of two separate parts:
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+- Firstly, formulating of an adjoint source in a probabilistic sense
+- Secondly, the implications of the choice of penalty function (probability) has
+on our understanding of the resulting model of the Earth (or part thereof), i.e. the
+uncertainties of the Earth model
 
+# Pre-requisites
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+Experience or knowledge of topics such as Bayesian Inference,
+Variational Bayes, Gaussian Processes, and associated
+Optimization/Machine Learning techniques would be desirable.
 
+Experiences in the use of HPC resources (e.g. Gadi) would be advantageous.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+# Notes
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+This project would be suitable for a 12pt or 24pt Honors Student
+
+# Supervisors
+
+- [Dr Rhys Hawkins (SOCO)](https://comp.anu.edu.au/people/rhys-hawkins/)
+- [Dr Thang Bui (SOCO)](https://comp.anu.edu.au/people/thang-bui/)

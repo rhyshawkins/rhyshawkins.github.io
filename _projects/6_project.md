@@ -1,80 +1,85 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
+title: PhD 
+description: PhD opportunity involving numerical simulation, approximation, and inference
+img: assets/img/earthimage.jpg
 importance: 4
-category: fun
+category: phd
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+At the level of PhD, I encourage students to put forward their own
+ideas for research as at some level successful completion should
+demonstrate that you are capabable both of performing research but
+also initiating it. That said, I provide here some general themes
+under the following general headings for a PhD that I would be happy
+to supervise and look forward to discussing these opportunities with
+you should you be interested. Please also note the admission deadlines
+below for the PhD program at the ANU.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Numerical Simulation and High Performance Computing
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+For many years, various computationally expensive techniques have been
+used for the simulation of complex physical phenomena within the
+Earth. An example from seismic tomography is full waveform simulation
+for the simulation of the Earths response due to an Earthquake, which
+coupled with adjoint simulations, can subsequently be used to infer
+the structure of the Earth. These techniques are well established and
+have community open source codes that are generally well optimized for
+running on super computing resources.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+I am generally interested in research around both different methods
+for the solution of wave propagation problems (e.g. FEM, SEM, DG etc)
+and their efficient implementation on high performance computing
+resources.
 
+## Useful Approximations
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+In addition to high fidelity numerical simulation and advances therein
+outlined in the previous section, there is a great deal of interest in
+the use for numerical approximation techniques for approximating these
+simulations at dramatically reduced costs. Applications for this
+include (near) real-time monitoring of physical phenomena, or
+evaluating large number of solutions for scenario evaluations.
+
+There are two broad categories that I am interested in: model order
+reduction (or reduced basis) methods and machine learning approaches.
+
+On the first hand, model order reduction generally seaks a reduced
+basis (subspace) on to which a high fidelity system can be projected
+that produces a much lower dimension simulation while maintaining
+numerical stability and a high degree of accuracy. The general idea is that
+simulations can then be computed with 2-4 orders of magnitude less
+expense which incurring moderate approximation errors, i.e. < 1%.
+
+On the other hand, machine learning techniques such as Physically
+Informed Neural Networks have been shown to accurately reproduced the
+results of partial differential equations under various scenarios.
+Some recent work has also shown the use of Auto Encoders that can act
+as efficient numerical integrators through time, i.e. they can predict
+the state of a numerical system and the next or the previous time
+step.
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Bayesian Inference
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+Much of my early research was in Bayesian inference and in the so-called
+Trans-dimensional sampling algorithms. These are based on McMC or HMC sampling
+methods that attempt to approximate a posterior probability distribution
+using a population of likely models. As problems get larger, McMC/HMC become
+progressively less tractable due to the curse of dimensionality.
+
+Primarily for this reason, I am more interested now in optimization techniques
+such as Variational Bayes and Generative Models as methods of approximating the
+posterior distribution.
+
+# Applying
+
+There are two rounds each year for applying for entry into the PhD Program
+at ANU:
+ - April (Both Domestic and International Students)
+ - October (Domestic Students), August (International Students)
+ 
+Detailed information can be found here:
+ - [https://programsandcourses.anu.edu.au/program/9070XPHD](https://programsandcourses.anu.edu.au/program/9070XPHD)

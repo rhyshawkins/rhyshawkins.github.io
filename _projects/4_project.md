@@ -1,80 +1,50 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: hpc+eigen
+description: Approaches to large scale solution of non-linear eigen problems.
+img: assets/img/eigen.jpg
 importance: 3
-category: fun
+category: undergrad
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+In many fields of science and engineering, the eigen solutions of physical
+equations have important applications in many fields.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Examples from structural analysis include the Tacoma Narrows bridge
+where a relatively mild wind excited torsional vibration modes of a
+bridge that subsequently resulted in its eventual [collapse](https://en.wikipedia.org/wiki/Tacoma_Narrows_Bridge_(1940)).
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+An example from seismology include using passive techniques that
+``listen'' for fundamental eigen modes at different frequencies. From
+this information, the subsurface structure and its likelihood to shake
+severely during an Earthquake can be inferred.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+The traditional calculation of eigen solutions is well established but
+scales very poorly and cannot be used for large scale problems.
+Fortunately, in many cases, we only require a small number of eigen
+solutions rather than the whole spectrum and there have been many
+algorithms developed over the years that efficiently compute a small
+subset of eigen solutions.  A recent advance is the so called FEAST
+algorithm with its additional benefit being that
+it can also operate on polynomial and non-linear eigen problems.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+This honours project would examine the application of High Performance
+Computing strategies for solving larger scale non-linear eigen
+problems.
 
+# Prerequisites
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+This project would require a working knowledge of basic linear algebra.
 
+Although not mandatory, some mathematical knowledge or numerical modelling knowledge would be desirable.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Use of HPC resources (e.g., Gadi) would be advantageous
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+# Notes
+
+This project is ideal for an Honour’s or Master’s student pursuing 12 or 24 units over two consecutive semesters.
+
+# Supervisors
+
+- [Dr Rhys Hawkins (SOCO)](https://comp.anu.edu.au/people/rhys-hawkins/)
+

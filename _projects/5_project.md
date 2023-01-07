@@ -1,80 +1,35 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+title: soft+sem
+description: Soft spectral element method (softSEM) and its application to seismic wave simulation 
+img: assets/img/mesh.jpg
 importance: 3
-category: fun
+category: undergrad
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The high-order spectral element method (SEM) has been widely used in geoscience for simulating seismic waves.
+However, like the higher-order finite element methods (FEMs), high-order SEMs suffer from high stiffness
+(large condition numbers) in their discretized systems. Following the softFEM idea, we propose to reduce the
+stiffness of the problem by subtracting a least-squares penalty on the gradient jumps across the mesh interfaces
+from the standard stiffness SEM bilinear form. We refer to this method as softSEM. The two key goals of softSEM
+are (1) to reduce the numerical dispersion errors, especially for high-frequency waves, leading to more accurate
+simulation; and (2) to reduce the condition number (i.e., the stiffness) of the discretized system, leading to
+larger time-marching step size when using explicit schemes and hence computational advantages. The major
+difficulty of this project is to optimize the softness parameter such that the resulting system is coercive while the above goals are achieved.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+We will provide a basic code (both Python and Matlab codes are available for your choice) for this project.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+# Pre-requisites
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Although not mandatory, some mathematical knowledge or numerical modelling knowledge would be desirable.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+Use of HPC resources (e.g., Gadi) may be advantageous
 
+# Notes
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+This project is ideal for an Honour’s or Master’s student pursuing 12 or 24 units over two consecutive semesters.
 
+# Supervisors
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+- [Dr Quanling Deng (SOCO)](https://comp.anu.edu.au/people/quanling-deng/)
+- [Dr Rhys Hawkins (SOCO)](https://comp.anu.edu.au/people/rhys-hawkins/)
