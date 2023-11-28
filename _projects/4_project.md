@@ -7,6 +7,9 @@ importance: 3
 category: undergrad
 ---
 
+**This project is intended as a full year Honours project and a scholarship is
+available to the right candidate.**
+
 In many fields of science and engineering, the eigen solutions of physical
 equations have important applications in many fields.
 
@@ -32,17 +35,15 @@ This honours project would examine the application of High Performance
 Computing strategies for solving larger scale non-linear eigen
 problems.
 
-# Prerequisites
+# Pre-requisites
 
-This project would require a working knowledge of basic linear algebra.
+- C/C++, Python
+- HPC (COMP3320, COMP4300)
+- Some basic mathematical knowledge would be required
 
-Although not mandatory, some mathematical knowledge or numerical modelling knowledge would be desirable.
+# References
 
-Use of HPC resources (e.g., Gadi) would be advantageous
-
-# Notes
-
-This project is ideal for an Honour’s or Master’s student pursuing 12 or 24 units over two consecutive semesters.
+- [Gavin, B. et al, "FEAST eigensolver for nonlinear eigenvalue problems", Journal of Computational Science, 2018](https://doi.org/10.1016/j.jocs.2018.05.006)
 
 # Supervisors
 

@@ -4,8 +4,10 @@ title: vb+adjoint
 description: Variational Bayes approaches applied to adjoint waveform tomography
 img: assets/img/iceland_kernel.jpg
 importance: 3
-category: undergrad
+category: onhold
 ---
+
+Not a priority at this stage
 
 # Description
 

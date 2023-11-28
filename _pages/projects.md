@@ -63,3 +63,41 @@ put you in touch with the right people.
   {%- endif -%}
 {%- endif -%}
 </div>
+
+<h2 class="category">Past Projects</h2>
+
+
+<div class="publications">
+
+<h2 class="year"> 2023 </h2>
+
+<ul>
+<li> Heming Zhu, <emph> "Application and performance analysis of Soft Spectral Element Method in Wave Simulations" </emph> (COMP4550), co-supervised with Quanling Deng </li>
+</ul>
+
+<ul>
+<li> Xuzeng He, <emph> "Unleashing the power of Machine Learning in Geodynamics" </emph> (COMP4560), co-supervised with Alberto F. Martin and Sia Ghelichkhan </li>
+</ul>
+
+<ul>
+<li> Raymond Horley, <emph> "Deep learning techniques for seasonal climate forecasts in Australia" </emph> (COMP3770) co-supervised with Warren Jin (CSIRO) </li>
+</ul>
+
+<ul>
+<li> Muhammad Sulthan Mazaya, <emph> "Optimisation and integration of geodynamic forward models into a Bayesian Trans-dimensional framework" </emph>, (FRT Scholar), co-supervised with Sia Ghelichkhan and Mark Hoggard </li>
+</ul>
+
+<ul>
+<li> Ishan Tandon, <emph> "Bayesian Trans-dimensional inversion of geodynamics observations" </emph>, (FRT Scholar)
+, co-supervised with Sia Ghelichkhan and Mark Hoggard </li>
+</ul>
+
+<ul>
+<li> Porntipa Poonpolsub, "Curvelet wavefield partitioning of DAS observations", (Summer Scholar), co-supervised with Voon Hui Lai and Meghan Miller </li>
+</ul>
+
+<ul>
+<li> Lin Xi, "Curvelet wavefield partitioning of DAS observations", (Summer Scholar), co-supervised with Voon Hui Lai and Meghan Miller </li>
+</ul>
+
+</div>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: PhD 
-description: PhD opportunity involving numerical simulation, approximation, and inference
+description: PhD involving numerical simulation, approximation, and inference
 img: assets/img/earthimage.jpg
 importance: 4
 category: phd
@@ -9,14 +9,9 @@ category: phd
 
 # Overview
 
-At the level of PhD, I encourage students to put forward their own
-ideas for research as at some level successful completion should
-demonstrate that you are capabable both of performing research but
-also initiating it. That said, I provide here some general themes
-under the following general headings for a PhD that I would be happy
-to supervise and look forward to discussing these opportunities with
-you should you be interested. Please also note the admission deadlines
-below for the PhD program at the ANU.
+I do not have any open positions for a PhD at present but if you are
+interested in the general topics outlined below then please get in touch.
+Please also note the admission deadlines below for the PhD program at the ANU.
 
 ## Numerical Simulation and High Performance Computing
 

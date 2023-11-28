@@ -4,8 +4,10 @@ title: soft+sem
 description: Soft spectral element method (softSEM) and its application to seismic wave simulation 
 img: assets/img/mesh.jpg
 importance: 3
-category: undergrad
+category: pastproject
 ---
+
+Completed by Heming Zhu 2023
 
 The high-order spectral element method (SEM) has been widely used in geoscience for simulating seismic waves.
 However, like the higher-order finite element methods (FEMs), high-order SEMs suffer from high stiffness

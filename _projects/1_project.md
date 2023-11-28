@@ -4,8 +4,10 @@ title: Stokes+ML
 description: Approximating Geodynamic simulations using Machine Learning techniques
 img: assets/img/stokes.jpg
 importance: 1
-category: undergrad
+category: pastproject
 ---
+
+Completed by Xuzeng He, 2023
 
 # Description
 
